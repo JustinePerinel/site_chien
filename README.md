@@ -1,4 +1,4 @@
-# site_chien
+# siteCHIEN
  Un site d'entraînement
 ## CHANGEMENTS À FAIRE
 ### À CHANGER DANS LE HTML
