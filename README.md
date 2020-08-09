@@ -2,7 +2,7 @@
  Un site d'entraînement
 ## CHANGEMENTS À FAIRE
 ### À CHANGER DANS LE HTML
-    rajouter une page contact avec un formulaire d'inscription
+    rajouter une page contact avec un formulaire d'inscription + contact EN COURS
     rajouter un footer
     mettre une nav du site dans le footer
     mettre des liens dans les ico rs
@@ -10,7 +10,11 @@
     mettre les ico rs dans le footer
 ### À CHANGER DANS LE CSS
     améliorer les icones reseaux sociaux (ico rs)
-## CHANGEMENTS EFFECTUÉS HTML
+    Centrer les images sur la page contact
+    faire le css de la page contact
+
+## CHANGEMENTS EFFECTUÉS
+### DANS LE HTML
     pourquoi erreurs dans w3s ??? CORRIGÉ 
-## CHANGEMENTS EFFECTUÉS CSS
+### DANS LE CSS
     changer la forme des li 

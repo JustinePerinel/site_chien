@@ -57,8 +57,7 @@ body {
     min-height: 900px;
 }
 
-
-/* LES TITRES */
+/*LES TITRES */
 
 header {
     /* background-color: white; */
@@ -241,4 +240,25 @@ figcaption {
     margin: 0;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
+}
+
+/* PAGE DE CONTACT */
+
+#formulaire {
+    margin: auto;
+}
+
+#formulaire aside {
+    width:  45%;
+    float: left;
+}
+
+input, select {
+    float: right;
+    width: 300px;
+}
+
+#formaulaire {
+    font-size: 1.2em;
+    line-height: 2em;
 }

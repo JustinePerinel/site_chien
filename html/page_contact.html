@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Des chiots</title>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../css/style_exo_image.css">
+    <script src="https://kit.fontawesome.com/c194d650bf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">
+        <header>
+            <h1><a href="index.html"><i class="fas fa-paw"></i>Des chiots mignons<i class="fas fa-paw"></i></a></h1>
+        </header>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="page_beagle.html"> Beagle</a></li>
+                    <li><a href="page_bergerallemand.html">Berger Allemand</a></li>
+                    <li><a href="page_colley.html">Colley</a></li>
+                    <li><a href="page_dalmatien.html">Dalmatien</a></li>
+                    <li><a href="page_doberman.html">Doberman</a></li>
+                    <li><a href="page_husky.html">Husky</a></li>
+                    <li><a href="page_shetland.html">Shetland</a></li>
+                    <li><a href="page_contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        
+        <div id="formulaire">
+            <aside>
+                <h2>CONTACTEZ-NOUS</h2>
+                <form action="contact.php" method="GET">
+                    <fieldset> 
+                        <h3><legend>Formulaire de contact</legend></h3>
+                        <label for="nom">Prénom et nom de famille *</label> <input type="text" name="nom" id="nom" placeholder="Vos prénom et nom de famille" required> <br>
+                        <label for="mail">Courriel *</label><input type="email" name="email" id="email" placeholder="Votre adresse éléctronique" required> <br>
+                        <label for="raisondecontact">Pourquoi nous contactez-vous ?</label>
+                        <select name="raisondecontact" id="raisondecontact">
+                            <option value="">Question</option>
+                            <option value="">Partenariat</option>
+                            <option value="">Je veux travailler avec vous</option>
+                            <option value="">Autre</option>
+                        </select> <br>
+                        <label for="message">Message *</label> <input type="text" name="message" id="message" placeholder="Votre message" required>
+                    </fieldset>
+                </form>
+                <div>
+                <figure>
+                    <img src="../img/salon-du-chiot.jpg" alt="Des chiots et encore des chiots">
+                    <figcaption>Vous trouverez votre bonheur</figcaption>
+                </figure>
+                <div class="clear"></div>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-linkedin"></i>
+                </div>
+            </aside>
+            <aside>
+                <h2>FORMULAIRE D'INSCRIPTION</h2>
+                <figure class="a-droite">
+                    <img src="../img/cours-de-maternelle-chiots.jpg" alt="Des chiots de toutes races">
+                    <figcaption>Une classe de chiots</figcaption>
+                </figure>
+            </aside>
+        </div>
+            
+    </div>
+</body>
+</html>
