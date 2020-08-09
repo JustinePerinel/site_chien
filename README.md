@@ -3,6 +3,7 @@
 ## CHANGEMENTS À FAIRE
 ### À CHANGER DANS LE HTML
     rajouter une page contact avec un formulaire d'inscription + contact EN COURS
+    rajouter lien vers page_contact dans les autres pages du site
     rajouter un footer
     mettre une nav du site dans le footer
     mettre des liens dans les ico rs
