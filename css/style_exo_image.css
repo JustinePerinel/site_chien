@@ -137,15 +137,13 @@ h3 {
         display: inline-block;
         list-style-type: none;
         width: 140px;
-        text-align: center;
         background-color: ivory;
-        padding-bottom: 15px;
-        padding-top: 15px;
+        padding-bottom: 23px;
     }
 
         nav li a {
         /* margin: 5px; */
-        padding: 5px 10px;
+        padding: 10px;
         border-radius: 20px 20px;
         border: 3px solid #d6b38c;
         color: black;
@@ -166,9 +164,9 @@ h3 {
     }
 
     i {
-        color: ivory;
+        color: rgb(197, 197, 27);
         text-shadow: none;
-        font-size: 0rem;
+        text-indent: -5000px;
     }
     nav input {
         display: none;
@@ -176,9 +174,6 @@ h3 {
 }
 
 @media screen and (max-width: 1500px) {
-    nav {
-        float: left;
-    }
     nav input[type=checkbox]:checked + ul {
         display: flex;
         flex-flow: column wrap;
@@ -284,6 +279,35 @@ figcaption {
     font-family: 'Fjalla One', sans-serif;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: #d6b38c;
+    color: rgb(252, 250, 240);
+    width: 1400px;
+    margin: 20px auto;
+    min-height: 300px;
+    padding: 15px 50px 0 25px;
+}
+
+#nav-footer {
+    width: 50%;
+    height: 250px;
+    margin: auto;
+    float: left;
+}
+
+#nav-footer li a {
+    text-decoration: none;
+    list-style-type: upper-alpha;
+    color: rgb(252, 250, 240);
+}
+
+li::marker {
+    list-style-type: none;
+}
+
+
 /* PAGE DE CONTACT */
 
 #formulaire {
@@ -302,6 +326,6 @@ input, select {
 }
 
 #formulaire {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 2em;
 }
