@@ -85,6 +85,7 @@ h1 a {
     color: black;
 }
 
+
 h1 i {
     color: black;
     font-size: 0.6em;
@@ -100,11 +101,16 @@ h2 {
     margin: 10px 0 10px 0;
     font-size: 1.5em;
     font-family: 'Fjalla One', sans-serif;
-    text-align: center;
+    text-indent: 50px;
     text-shadow: 1px 1px 1px rgb(88, 87, 87);
     padding-bottom: 15px;
     padding-top: 5px;
     
+}
+
+aside h2 {
+    text-align: center;
+    text-indent: 0em;
 }
 
 h3 {
@@ -113,8 +119,8 @@ h3 {
     text-transform: capitalize;
     color: rgb(88, 87, 87);
     margin: 10px 0 10px 0;
-    border-left: 4px solid rgb(76, 87, 87);
-    padding-left: 10px;
+    /* border-right: 4px solid rgb(76, 87, 87); */
+    /* padding-left: 10px; */
     font-family: 'Fjalla One', sans-serif;
 }
 
@@ -232,6 +238,7 @@ aside i {
     font-size: 3em;
     text-align: center;
     margin: auto;
+    color: black;
 }
 
 /* LES IMAGES  */
@@ -286,15 +293,16 @@ footer {
     color: rgb(252, 250, 240);
     width: 1400px;
     margin: 20px auto;
-    min-height: 300px;
+    min-height: 350px;
     padding: 15px 50px 0 25px;
 }
 
 #nav-footer {
-    width: 50%;
+    width: 20%;
     height: 250px;
     margin: auto;
     float: left;
+    line-height: 25px;
 }
 
 #nav-footer li a {
@@ -303,10 +311,22 @@ footer {
     color: rgb(252, 250, 240);
 }
 
-li::marker {
-    list-style-type: none;
+#nav-footer li a:hover {
+    text-decoration: none;
+    list-style-type: upper-alpha;
+    color: rgb(252, 250, 240);
+    font-weight: bolder;
 }
 
+li::marker {
+    color: #d6b38c;
+}
+
+#footer2, #footer3 {
+    width: 40%;
+    float: left;
+    padding: 0 20px;
+}
 
 /* PAGE DE CONTACT */
 
